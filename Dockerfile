@@ -9,9 +9,7 @@ LABEL "repository"="http://github.com/wei/rclone"
 LABEL "homepage"="http://github.com/wei/rclone"
 LABEL "maintainer"="Wei He <github@weispot.com>"
 
-RUN apk add --no-cache bash curl unzip ca-certificates fuse openssh-client \
-  && wget -qO- https://rclone.org/install.sh | bash \
-  && apk del bash curl unzip
+RUN apk add --no-cache rclone
 
 ADD *.sh /
 
