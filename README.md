@@ -1,5 +1,7 @@
 # Github Action for rclone
 
+**Used by me to upload content to A/I hosting**
+
 This Action wraps [rclone](https://rclone.org) to enable syncing files and directories to and from different cloud storage providers.
 
 
